@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/app_icon.png" alt="KuroRead Logo" width="120" style="border-radius: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.6);" />
+  <img src="assets/app_icon.png" alt="KuroRead Logo" width="120" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.6);" />
 </p>
 
 <h1 align="center">📖 KuroRead</h1>
@@ -10,7 +10,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android%20%7C%20Web-E53935?style=for-the-badge&logo=android" alt="Platform" />
-  <img src="https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge" alt="Version" />
+  <img src="https://img.shields.io/badge/Version-v1.1.0-blue?style=for-the-badge" alt="Version" />
   <img src="https://img.shields.io/badge/Language-Kotlin%20%7C%20JavaScript-orange?style=for-the-badge&logo=kotlin" alt="Language" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </p>
@@ -19,9 +19,10 @@
 
 ## 🚀 Download APK (Android Release)
 
-Anda bisa langsung mengunduh dan menginstal file APK KuroRead:
-- 📥 **[Download KuroRead v1.0.0 APK (Direct)](KuroRead-v1.0.0.apk)** *(Tersedia langsung di root & folder `release/`)*
-- 🏷️ Atau cek tab **[Releases](https://github.com/Epithap/KuroRead/releases)** untuk update versi terbaru.
+Unduh dan instal langsung file APK KuroRead:
+- 📥 **[Download KuroRead v1.1.0 APK (Latest)](KuroRead-v1.1.0.apk)** *(Versi terbaru - Tersedia di root & folder `release/`)*
+- 📦 **[Download KuroRead v1.0.0 APK](release/KuroRead-v1.0.0.apk)** *(Arsip v1.0.0)*
+- 🏷️ Atau cek tab **[Releases](https://github.com/Epithap/KuroRead/releases)** untuk update dan changelog lengkap.
 
 ---
 
@@ -48,8 +49,10 @@ Anda bisa langsung mengunduh dan menginstal file APK KuroRead:
 
 ```
 kuroread/
+├── 📱 KuroRead-v1.1.0.apk             # APK terbaru (v1.1.0) di root
 ├── 📱 release/
-│   └── KuroRead-v1.0.0.apk            # File APK siap install untuk Android
+│   ├── KuroRead-v1.1.0.apk            # File APK v1.1.0
+│   └── KuroRead-v1.0.0.apk            # File APK v1.0.0
 │
 ├── 🤖 android_studio_project/         # Project lengkap Android Studio (Gradle + Kotlin)
 │   ├── app/
@@ -58,6 +61,7 @@ kuroread/
 │   │   │   ├── data/WebNovelScraper.kt# Native Scraper Engine
 │   │   │   ├── model/Novel.kt         # Model data
 │   │   │   └── ui/screens/            # Screen Compose (Home, Reader, Collection, dll)
+│   │   ├── src/main/res/              # Ikon Launcher & Aset Resource
 │   │   └── src/main/assets/           # Bundle aset web & database offline
 │   └── build.gradle.kts
 │
@@ -68,11 +72,12 @@ kuroread/
 │   ├── styles.css                     # Gaya CSS Dark Editorial solid contrast
 │   ├── script.js                      # Logika reader, carousel, dan filter
 │   ├── data/novels_db.json            # Database lokal novel & bab
-│   ├── scraper.mjs                    # Scraper scraper novel berbasis JavaScript
+│   ├── scraper.mjs                    # Scraper novel berbasis JavaScript
 │   ├── sync_sakura_all.mjs            # Sinkronisasi data otomatis
 │   └── server.js                      # Server backend lokal Node.js
 │
 └── 🖼️ assets/
+    ├── app_icon.png                   # Ikon resmi KuroRead
     ├── covers/                        # Cover art novel
     └── icons/                         # Ikon SVG navigasi & utilitas
 ```
@@ -82,7 +87,7 @@ kuroread/
 ## 🛠️ Cara Menjalankan
 
 ### 1. Langsung di Android
-- Unduh **`release/KuroRead-v1.0.0.apk`** ke smartphone Android Anda.
+- Unduh **`KuroRead-v1.1.0.apk`** ke smartphone Android Anda.
 - Buka file APK dan izinkan instalasi dari sumber tidak dikenal jika diminta.
 - Buka aplikasi **KuroRead** dan nikmati pengalaman membaca.
 
