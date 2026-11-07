@@ -20,7 +20,7 @@
 ## 🚀 Download APK (Android Release)
 
 Anda bisa langsung mengunduh dan menginstal file APK KuroRead:
-- 📥 **[Download KuroRead v1.0.0 APK](release/KuroRead-v1.0.0.apk)** *(Tersedia langsung di repositori)*
+- 📥 **[Download KuroRead v1.0.0 APK (Direct)](KuroRead-v1.0.0.apk)** *(Tersedia langsung di root & folder `release/`)*
 - 🏷️ Atau cek tab **[Releases](https://github.com/Epithap/KuroRead/releases)** untuk update versi terbaru.
 
 ---
